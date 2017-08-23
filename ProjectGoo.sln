@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectGoo", "ProjectGoo\ProjectGoo.csproj", "{A41D3F7B-6257-4D45-AB43-6506EAD5E3AE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectGooStart", "ProjectGooStart\ProjectGooStart.csproj", "{8C187D29-9E2E-42EB-B8E7-6026FE448968}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A41D3F7B-6257-4D45-AB43-6506EAD5E3AE}.Debug.ActiveCfg = Debug|.NET
+		{A41D3F7B-6257-4D45-AB43-6506EAD5E3AE}.Debug.Build.0 = Debug|.NET
+		{A41D3F7B-6257-4D45-AB43-6506EAD5E3AE}.Release.ActiveCfg = Release|.NET
+		{A41D3F7B-6257-4D45-AB43-6506EAD5E3AE}.Release.Build.0 = Release|.NET
+		{8C187D29-9E2E-42EB-B8E7-6026FE448968}.Debug.ActiveCfg = Debug|.NET
+		{8C187D29-9E2E-42EB-B8E7-6026FE448968}.Debug.Build.0 = Debug|.NET
+		{8C187D29-9E2E-42EB-B8E7-6026FE448968}.Release.ActiveCfg = Release|.NET
+		{8C187D29-9E2E-42EB-B8E7-6026FE448968}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

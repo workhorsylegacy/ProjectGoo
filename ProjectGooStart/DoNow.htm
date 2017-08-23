@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="ProgId" content="VisualStudio.HTML">
+		<meta name="Originator" content="Microsoft Visual Studio .NET 7.1">
+	</head>
+	<body>
+		<OL>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Fix death animation color for other 
+					player.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Made all the platforms and polls 
+					re-use the same sprites if possable.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Made BackGroundAccess.Polls into an 
+					ArrayList. This is better because we no longer have to hard code the indexes in 
+					the array, and because the platforms uses an ArrayList.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Added config file that holds the path 
+					of all the files needed. It also checks if there are missing keys and if the 
+					files exist too.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Make it so the game.cs file is in the 
+					programstart project, and the resources are in the programstart. Then remove 
+					any hard coded strings to the reference files in the library</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Change remoting of local sprite info 
+					from static wrapper SAO to Omnipresent</FONT>
+			</LI>
+		</OL>
+		<P><FONT face="Verdana" color="#ff3333" size="5"></FONT>&nbsp;</P>
+		<OL>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Make the game.cs so it can load the 
+					players and bubbles as local, remote, or any(doesnt matter where)</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Make the polls work so the bottom and 
+					top peices are shorter.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff0000" size="5">The goo should pause if the game 
+					looses focus.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Make player score reflect player 
+					color.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">If the player hits death then another 
+					item. Death will be overridden by the new item and the player will live.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Make players bounce off corners of 
+					screen.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Fix Make it so you fall in a 
+					direction instead of just down, when jumping off polls.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Make players bounce off each other 
+					correctly.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Fix bubble humping problem.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">When falling from a super jump, you 
+					can only fall straight down.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Add new input device class.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Make walking sound start earlier.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Make bubbles die all the way if they 
+					are touched</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Add bubble spawn points.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Add other items</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Reduce the quality of the texture 
+					objects. Also try reducing the mipmapping levels.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Have the game cache the animation 
+					frames as images in a temp folder.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Add remoting. Have the remoting 
+					inside the player class. That way the code will be the same for the state 
+					machine and such.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Have Jacob reduce the number of 
+					polygons on the pipe. Its got like 10,000!</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Create an effects base clas. Move the 
+					explosion into it. Then add other effects like platforms breaking and goo 
+					splashing.</FONT>
+			<LI>
+				<FONT face="Verdana" color="#ff3333" size="5">Add AI.</FONT></LI></OL>
+	</body>
+</html>
